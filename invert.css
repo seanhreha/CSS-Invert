@@ -3,7 +3,7 @@ body {
     background-color: #000;
 }
 
-body .content img, body .content video { 
+body .content img, body .content video, body .content iframe { 
     filter: invert(1) hue-rotate(180deg);
     transform: translateZ(0);
 }
