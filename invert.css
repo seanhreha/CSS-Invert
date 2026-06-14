@@ -838,13 +838,6 @@ textarea.code {
     Menlo, Monaco, Consolas, Courier New, Courier, monospace;
 }
 
-body {
-    background: #fff
-    linear-gradient( to bottom, #eceae4, #aeada5 95px, #a3a29c 95px, #f7faff 96px, #eceaeb 99px, #fefefe 120px
-    )
-    top center / auto 120px no-repeat;
-}
-
 #header {
     height: 96px;
     color: #fff;
@@ -1654,7 +1647,7 @@ span.admin {
 }
 
 body {
-    background-image: url("/assets/b3s/header_bg_breathe-57217c8e.jpg");
+    background-image: url("https://b3s.me/assets/b3s/header_bg_breathe-57217c8e.jpg");
     background-position: top;
     background-size: auto;
     background-repeat: repeat-x;
