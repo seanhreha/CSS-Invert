@@ -1724,3 +1724,39 @@ a:hover, #account a:hover, #sidebar .categories li.current a {
     background-color: #ff6060;
     color: #000000;
 }
+
+
+/* ============================================================
+   POST-GENERATION TWEAKS (added by hand, not part of the sweep)
+   ============================================================ */
+
+/* Visited links: faded ~60% toward the dark background.
+   NOTE: opacity is ignored on :visited by browsers (history-sniffing
+   protection), so this is done with color instead. */
+a:visited {
+    color: #a34444;
+}
+
+.post .body a:visited {
+    color: #6442a3;
+}
+
+/* Form fields render as light mode because the base theme never sets a
+   background or text color on them (only border + shadow). Give text
+   inputs, textareas, and selects the dark treatment. */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="search"],
+input[type="url"],
+input[type="number"],
+textarea,
+select {
+    background-color: #1a1a1a;
+    color: #e8e8e8;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #6f6f6f;
+}
